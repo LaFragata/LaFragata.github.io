@@ -20,12 +20,21 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
-main {
-    margin-top: 30rem;
+.menu {
     width: 80%;
     max-width: 900px;
-    margin: auto;
+    margin: 10rem auto 4rem;
     padding: 2rem 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-size-adjust: 5;
 }
 
 .category {
@@ -35,6 +44,7 @@ main {
 .category h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    margin-top: 4rem;
     text-decoration: underline;
 }
 
@@ -54,14 +64,6 @@ main {
     font-weight: bold;
     margin-top: 0.5rem;
     color: #cc3333;
-}
-
-footer {
-    background-color: #ddd;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
-    text-size-adjust: 5;
 }
 
 .subtext {
